@@ -10,7 +10,9 @@ Given a series of shell commands, such as `ls` and `cd`, re-create the tree.
 
 ## My Approach
 
-I wanted to create an easy to read and logical data structure. I decided to represent each folder using a dictionary, with keys such as `folderName` and `contents`. Inside this array `contents` would be a list of more dictionaries (folders). Here is what my array ultimately looks like after my code parses. It is very readable.
+I wanted to create an easy to read and logical data structure. I decided to represent each folder using a dictionary, with keys such as `folderName` and `contents`. Inside this array `contents` would be a list of more dictionaries (folders).
+
+Here is what my array ultimately looks like after my code parses. It is very readable.
 
 ```python
 [{
